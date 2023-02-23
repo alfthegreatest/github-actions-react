@@ -28,5 +28,5 @@ jobs:
         run: npm ci
       - name: Build application
         run: Build run lint
-      - name Deploy
-      - echo Deploying...
+      - name: Deploy
+        run: echo Deploying...
